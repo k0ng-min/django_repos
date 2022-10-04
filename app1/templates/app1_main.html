@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>app1_main</title>
+</head>
+<body>
+    <h1> USER </h1>
+        {% for user in users %}
+            {{user.name}}
+            {{user.age}}
+            <br/>
+        {% endfor %}
+</body>
+</html>
